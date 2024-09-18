@@ -90,3 +90,104 @@
    cursor: pointer;
  }
 
+
+ .tom{
+
+  border-radius: 35px; 
+   position: absolute; 
+   z-index: 1;
+   right : 50vh; 
+   width : 40vh; 
+   top: 25vh;
+   transform: rotate(40deg);
+   transition: all 1s ease-in;
+ }
+
+ .scrolled{
+  border-radius: 35px; 
+   position: absolute; 
+   z-index: 1;
+   right : 10vh; 
+   width : 40vh; 
+   top: 105vh;
+   transform: rotate(0deg);
+   transition: all 1s ease-in;
+ }
+
+ .disk{
+
+  border-radius: 35px; 
+   position: absolute; 
+   z-index: 1;
+   right : 2vh; 
+   width : 35vh; 
+   top: 18vh;
+   transform: rotate(40deg);
+   transition: all 1s ease-in;
+ }
+
+ .diskscrolled{
+  border-radius: 35px; 
+   position: absolute; 
+   z-index: 1;
+   right : 65vh; 
+   width : 35vh; 
+   top: 100vh;
+   transform: rotate(0deg);
+   transition: all 1s ease-in;
+ }
+
+ .pipe{
+
+  border-radius: 35px; 
+   position: absolute; 
+   z-index: 1;
+   right : 29vh; 
+   width : 35vh; 
+   top: 21vh;
+   transform: rotate(60deg);
+   transition: all 1s ease-in;
+ }
+
+ .pipescrolled{
+  border-radius: 35px; 
+   position: absolute; 
+   z-index: 1;
+   right : 120vh; 
+   width : 35vh; 
+   top: 102vh;
+   transition: all 1s ease-in;
+ }
+
+ .scrolled3{
+  display: none;
+ }
+
+ .scrolled2{
+  top: 150vh; 
+ }
+
+ .tom1{
+  position: absolute; 
+  z-index: 2;
+  right : 40vh; 
+  width : 25vh; 
+  top: 128vh; 
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+ }
+
+ .tomato{
+  position: absolute;
+  right: 10vh;
+  top: 200vh; 
+  transition: top 1s ease-in-out;
+  z-index: 10;
+  border-radius: 10px;
+}
+
+.scrolled4 {
+  top: 150vh; 
+  z-index: 1;
+}
